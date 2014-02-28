@@ -6,6 +6,7 @@ import com.epsi.eiwd306.beans.User;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -22,7 +23,6 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 		
 		Button button = (Button)findViewById(R.id.buttonConnexion);
 		button.setOnClickListener(this);
-
 	}
 	
 	public void onClick(View v){
@@ -34,26 +34,13 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 		if(caller.getId() == R.id.buttonConnexion){	
 			u = Provider.login(login.getText().toString(), password.getText().toString());
 			if (u == null){
-				System.out.println("Fail");
-				AlertDialog.Builder builder = new AlertDialog.Builder(this);
-				builder
-				.setTitle("Erreur")
-				.setMessage("Mauvais login ou mot de passe")
-				.setPositiveButton(
-						"OK", 
-						new DialogInterface.OnClickListener(){
-							@Override
-							public void onClick(DialogInterface dialog, int which) {
-								dialog.cancel();
-							}
-				 })
-				.show();
+				Toast.makeText(getApplicationContext(), "Mauvais login ou mot de passe", Toast.LENGTH_SHORT).show();
 			}else{
+				Toast.makeText(getApplicationContext(), "Bonjour " + u.getPseudo(), Toast.LENGTH_SHORT).show();
 				Intent intent = new Intent(this, HomeActivity.class);
 			    startActivity(intent);
 			    finish();
 			}
 		}
-
 	}
 }
