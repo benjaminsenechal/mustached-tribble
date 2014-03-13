@@ -1,7 +1,7 @@
 package com.example.javaproject;
 
-import com.epsi.eiwd306.Provider;
-import com.epsi.eiwd306.beans.User;
+import com.example.javaproject.models.Provider;
+import com.example.javaproject.models.User;
 
 import android.os.Bundle;
 import android.widget.Button;

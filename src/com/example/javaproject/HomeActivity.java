@@ -3,8 +3,8 @@ package com.example.javaproject;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.epsi.eiwd306.Provider;
-import com.epsi.eiwd306.beans.Person;
+import com.example.javaproject.models.Person;
+import com.example.javaproject.models.Provider;
 
 import android.os.Bundle;
 import android.app.Activity;
