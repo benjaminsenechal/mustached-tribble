@@ -18,6 +18,7 @@
         android:ems="10" >
 
         <requestFocus />
+        
     </EditText>
 
     <EditText

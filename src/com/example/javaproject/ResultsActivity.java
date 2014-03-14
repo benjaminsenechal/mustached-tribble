@@ -33,13 +33,12 @@ public class ResultsActivity extends Activity {
 		listView.setAdapter(Adapter);	
 	
 		listView.setOnItemClickListener(new OnItemClickListener() {
-
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
 				Person p = (Person) arg0.getItemAtPosition(arg2);
 
-				myIntent = new Intent(ResultsActivity.this, DetailsActivity.class).putExtra("id_person", p.getId());
+				myIntent = new Intent(ResultsActivity.this, DetailsActivity.class).putExtra("person_id", p.getId());
 				startActivity(myIntent);
 			}
 		});

@@ -47,7 +47,7 @@ public class Provider {
 		person.setFirstname("Robert");
 		person.setLastname("Martin");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
 		person.getAbilities().add("C#");
@@ -72,7 +72,7 @@ public class Provider {
 		person.setFirstname("George");
 		person.setLastname("Durant");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
 		person.getAbilities().add("C#");
@@ -96,7 +96,7 @@ public class Provider {
 		person.setFirstname("Michel");
 		person.setLastname("Denis");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
 		person.getAbilities().add("C#");
@@ -120,7 +120,7 @@ public class Provider {
 		person.setFirstname("Frederic");
 		person.setLastname("Milano");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet technique");
 		person.getAbilities().add("C#");
@@ -144,7 +144,7 @@ public class Provider {
 		person.setFirstname("Lisat");
 		person.setLastname("Matisse");
 		person.setMale(false);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FA04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet");
 //		person.getAbilities().add("C#");
@@ -168,7 +168,7 @@ public class Provider {
 		person.setFirstname("Tiphaine");
 		person.setLastname("Legarek");
 		person.setMale(false);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FA04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet technique");
 		person.getAbilities().add("C#");
@@ -192,7 +192,7 @@ public class Provider {
 		person.setFirstname("Marc");
 		person.setLastname("Vandenbusch");
 		person.setMale(false);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FI02.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet");
 //		person.getAbilities().add("C#");
@@ -216,7 +216,7 @@ public class Provider {
 		person.setFirstname("Gislaine");
 		person.setLastname("Gallois");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Comptable");
 //		person.getAbilities().add("C#");
@@ -240,7 +240,7 @@ public class Provider {
 		person.setFirstname("Audrey");
 		person.setLastname("Leval");
 		person.setMale(false);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FI02.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Assistante agence");
 //		person.getAbilities().add("C#");
@@ -264,7 +264,7 @@ public class Provider {
 		person.setFirstname("John");
 		person.setLastname("Gleek");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Directeur agence");
 //		person.getAbilities().add("C#");
@@ -288,7 +288,7 @@ public class Provider {
 		person.setFirstname("Jean Claude");
 		person.setLastname("Convenan");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Commercial");
 //		person.getAbilities().add("C#");
@@ -312,7 +312,7 @@ public class Provider {
 		person.setFirstname("Melodie");
 		person.setLastname("Galard");
 		person.setMale(false);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FA04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("RH");
 //		person.getAbilities().add("C#");
@@ -384,7 +384,7 @@ public class Provider {
 		person.setFirstname("Karim");
 		person.setLastname("Balid");
 		person.setMale(true);
-		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
+		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
 		person.getAbilities().add("C#");
