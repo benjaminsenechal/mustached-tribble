@@ -11,6 +11,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.util.Log;
 import android.view.View;
 
@@ -20,9 +21,11 @@ public class LoginActivity extends Activity implements View.OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
-		
+        this.setTitle("Connexion");
+     
 		Button button = (Button)findViewById(R.id.buttonConnexion);
 		button.setOnClickListener(this);
+
 	}
 	
 	public void onClick(View v){

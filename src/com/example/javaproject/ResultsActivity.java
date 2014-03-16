@@ -21,13 +21,19 @@ public class ResultsActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_results);
-		this.setTitle("Resultats");
 		myIntent = getIntent(); 
 		
 		ListView listView = (ListView)findViewById(R.id.listView);
 		
 		List<Person> result = new ArrayList<Person>();
+				
 		result = Provider.searchPerson(myIntent.getStringExtra("nom"), myIntent.getStringExtra("prenom"));
+		
+		if (result.size() == 1){
+			this.setTitle("Resultat");
+		}else{
+			this.setTitle("Resultats");
+		}
 		
 		MyAdapter Adapter = new MyAdapter(this,R.layout.template_persons,result);
 		listView.setAdapter(Adapter);	
