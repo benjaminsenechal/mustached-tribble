@@ -29,5 +29,4 @@ public class AbilitiesAdapter extends ArrayAdapter<String>  {
 		    
 		    return v;
 	  }
-
 }

@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.view.Menu;
 
 public class Splashscreen extends Activity {
-	   // Splash screen timer
     private static int SPLASH_TIME_OUT = 3000;
  
 	@Override

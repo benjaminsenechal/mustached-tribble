@@ -49,5 +49,4 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 			}
 		}
 	}
-
 }
