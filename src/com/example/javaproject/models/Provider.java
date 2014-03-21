@@ -49,6 +49,7 @@ public class Provider {
 		person.setMale(true);
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
+		person.setEmail("Robert@gmail.com");
 		person.setDescription("Developpeur microsoft");
 		person.getAbilities().add("C#");
 		person.getAbilities().add(".Net");
@@ -72,6 +73,7 @@ public class Provider {
 		person.setFirstname("George");
 		person.setLastname("Durant");
 		person.setMale(true);
+		person.setEmail("George@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
@@ -96,6 +98,7 @@ public class Provider {
 		person.setFirstname("Michel");
 		person.setLastname("Denis");
 		person.setMale(true);
+		person.setEmail("Michel@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
@@ -119,6 +122,7 @@ public class Provider {
 		person.setAddress(address);
 		person.setFirstname("Frederic");
 		person.setLastname("Milano");
+		person.setEmail("Frederic@gmail.com");
 		person.setMale(true);
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
@@ -144,6 +148,7 @@ public class Provider {
 		person.setFirstname("Lisat");
 		person.setLastname("Matisse");
 		person.setMale(false);
+		person.setEmail("Lisat@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FA04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet");
@@ -168,6 +173,7 @@ public class Provider {
 		person.setFirstname("Tiphaine");
 		person.setLastname("Legarek");
 		person.setMale(false);
+		person.setEmail("Tiphaine@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FA04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet technique");
@@ -192,6 +198,7 @@ public class Provider {
 		person.setFirstname("Marc");
 		person.setLastname("Vandenbusch");
 		person.setMale(false);
+		person.setEmail("Marc@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FI02.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Chef de projet");
@@ -216,6 +223,7 @@ public class Provider {
 		person.setFirstname("Gislaine");
 		person.setLastname("Gallois");
 		person.setMale(true);
+		person.setEmail("Gislaine@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/iconshock_guys/512/andrew.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Comptable");
@@ -240,6 +248,7 @@ public class Provider {
 		person.setFirstname("Audrey");
 		person.setLastname("Leval");
 		person.setMale(false);
+		person.setEmail("Audrey@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FI02.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Assistante agence");
@@ -264,6 +273,7 @@ public class Provider {
 		person.setFirstname("John");
 		person.setLastname("Gleek");
 		person.setMale(true);
+		person.setEmail("John@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Directeur agence");
@@ -288,6 +298,7 @@ public class Provider {
 		person.setFirstname("Jean Claude");
 		person.setLastname("Convenan");
 		person.setMale(true);
+		person.setEmail("Jean-Claude@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Commercial");
@@ -312,6 +323,7 @@ public class Provider {
 		person.setFirstname("Melodie");
 		person.setLastname("Galard");
 		person.setMale(false);
+		person.setEmail("Melodie@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/FA04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("RH");
@@ -336,6 +348,7 @@ public class Provider {
 		person.setFirstname("Alain");
 		person.setLastname("Li");
 		person.setMale(true);
+		person.setEmail("Alain@gmail.com");
 		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("RH");
@@ -360,6 +373,7 @@ public class Provider {
 		person.setFirstname("Claire");
 		person.setLastname("Pilaud");
 		person.setMale(true);
+		person.setEmail("Alain@gmail.com");
 		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("DRH");
@@ -384,6 +398,7 @@ public class Provider {
 		person.setFirstname("Karim");
 		person.setLastname("Balid");
 		person.setMale(true);
+		person.setEmail("Karim@gmail.com");
 		person.setAvatar("https://cdn1.iconfinder.com/data/icons/faceavatars/PNG/M05.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("Developpeur microsoft");
@@ -407,6 +422,7 @@ public class Provider {
 		person.setFirstname("Antoine");
 		person.setLastname("Malle");
 		person.setMale(true);
+		person.setEmail("Antoine@gmail.com");
 		person.setAvatar("http://png-1.findicons.com/files/icons/1072/face_avatars/300/i04.png");
 		person.setPhoneNumber("0600000000");
 		person.setDescription("DBA");
@@ -429,7 +445,6 @@ public class Provider {
 		abilitiesContext.add("Ciel");
 		abilitiesContext.add("Scrum Master");
 		abilitiesContext.add("MS Project");
-		
 	}
 	
 	

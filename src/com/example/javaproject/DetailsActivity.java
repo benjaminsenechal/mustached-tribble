@@ -35,12 +35,14 @@ public class DetailsActivity extends Activity{
 	    TextView textViewLastname = (TextView)findViewById(R.id.textViewLastname); 
 	    TextView textViewPhoneNumber = (TextView)findViewById(R.id.textViewPhoneNumber); 
 	    TextView textViewDescription = (TextView)findViewById(R.id.textViewDescription); 
+	    TextView textViewEmail = (TextView)findViewById(R.id.textViewEmail); 
 	    ListView listViewAbilities = (ListView)findViewById(R.id.listViewAbilities);
 
 	    textViewFirstname.setText(Person.getFirstname());
 	    textViewLastname.setText(Person.getLastname());
 	    textViewDescription.setText(Person.getDescription());
 	    textViewPhoneNumber.setText(Person.getPhoneNumber());
+	    textViewEmail.setText(Person.getEmail());
 	    
 		List<String> Abilities = new ArrayList<String>();
 		Abilities = Person.getAbilities();

@@ -36,6 +36,16 @@
 		        android:layout_weight="66"
 		        android:text="Medium Text"
 		        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		    <TextView
+		        android:id="@+id/textViewEmail"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:text="Medium Text"
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:textStyle="italic" />
             
         </RelativeLayout>
         

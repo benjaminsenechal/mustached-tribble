@@ -30,6 +30,9 @@ public class MyAdapter extends ArrayAdapter<Person> {
     
     TextView LastName = (TextView)v.findViewById(R.id.textViewLastname);
     LastName.setText(currentPeople.getLastname().toString());
+
+    TextView Email = (TextView)v.findViewById(R.id.textViewEmail);
+    Email.setText(currentPeople.getEmail().toString());
     
     ImageView Avatar = (ImageView)v.findViewById(R.id.imageView1);
     Picasso.with(getContext()).load(currentPeople.getAvatar()).resize(50, 50).centerCrop().into(Avatar);
