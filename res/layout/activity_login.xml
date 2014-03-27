@@ -16,7 +16,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:ems="10" >
+        android:ems="10"
+        android:hint="Login" >
+
         <requestFocus />
         
     </EditText>
@@ -29,6 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:ems="10"
+        android:hint="Mot de passe"
         android:inputType="textPassword" />
 
     <Button
