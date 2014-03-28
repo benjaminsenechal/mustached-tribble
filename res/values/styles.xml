@@ -14,7 +14,19 @@
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    	<item name="android:buttonStyle">@style/CustomButton</item>
     </style>
-
+    
+    <style name="CustomButton">
+	    <item name="android:background">@color/blue</item>
+	    <item name="android:textColor">@color/white</item>
+	    <item name="android:focusable">true</item>
+	    <item name="android:clickable">true</item>
+	    <item name="android:gravity">center_vertical|center_horizontal</item>
+	    <item name="android:paddingTop">@dimen/layoutPaddingVertical</item>
+	    <item name="android:paddingBottom">@dimen/layoutPaddingVertical</item>
+	    <item name="android:paddingLeft">@dimen/layoutPaddingHorizontal</item>
+	    <item name="android:paddingRight">@dimen/layoutPaddingHorizontal</item>
+	</style>
+	
 </resources>

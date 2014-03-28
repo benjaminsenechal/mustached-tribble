@@ -10,44 +10,17 @@
     tools:context=".HomeActivity" >
 
     <EditText
-        android:id="@+id/nomEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp"
-        android:ems="10" >
-
-        <requestFocus />
-        
-    </EditText>
-
-    <EditText
         android:id="@+id/prenomEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/nomEditText"
-        android:layout_centerVertical="true"
-        android:ems="10" />
+        android:layout_below="@+id/nomEditText"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="Prénom" >
 
-    <TextView
-        android:id="@+id/prenomTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/prenomEditText"
-        android:layout_alignLeft="@+id/prenomEditText"
-        android:text="Prénom"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
-        android:id="@+id/nomTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/nomEditText"
-        android:layout_alignLeft="@+id/nomEditText"
-        android:layout_marginBottom="43dp"
-        android:text="Nom"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/rechercheButton"
@@ -55,6 +28,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/prenomEditText"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
         android:text="Recherche" />
+
+    <EditText
+        android:id="@+id/nomEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:hint="Nom" />
 
 </RelativeLayout>
