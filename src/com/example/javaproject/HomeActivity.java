@@ -40,7 +40,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 			List<Person> result = new ArrayList<Person>();
 			result = Provider.searchPerson(nom, prenom);
 			if(result.isEmpty()){
-				Toast.makeText(getApplicationContext(), "Veuillez entrer un nom!", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), "Nom ou Prénom incorrect!", Toast.LENGTH_SHORT).show();
 			}else{		
 				Intent myIntent = new Intent(this, ResultsActivity.class);
 				myIntent.putExtra("prenom",prenom );
